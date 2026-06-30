@@ -1,5 +1,6 @@
 'use client'
 import { loadGlobalKpi } from '@/lib/data-loader'
+import { KpiCapsule } from './KpiCapsule'
 
 const kpis = loadGlobalKpi()
 
@@ -14,16 +15,7 @@ export function TopBar() {
       </span>
       <div className="flex flex-1 gap-2 overflow-hidden">
         {kpis.map((k) => (
-          <span
-            key={k.label}
-            className="flex items-center gap-1.5 rounded-full px-3 py-0.5 text-[10px] whitespace-nowrap"
-            style={{ backgroundColor: 'rgba(255,255,255,0.12)', color: 'rgba(255,255,255,0.9)' }}
-          >
-            <span className="font-bold text-white">
-              {k.direction === 'up' ? '↑' : '↓'}{k.value}
-            </span>
-            <span className="opacity-75">{k.label}</span>
-          </span>
+          <KpiCapsule key={k.label} kpi={k} />
         ))}
       </div>
     </header>

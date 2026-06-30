@@ -50,6 +50,8 @@
 
 @theme {
   --color-topbar: #253348;
+  --color-topbar-pill-bg: rgba(255,255,255,0.12);
+  --color-topbar-pill-text: rgba(255,255,255,0.9);
   --color-sidebar-bg: #ffffff;
   --color-sidebar-border: #dde3ee;
   --color-content-bg: #f2f4f8;
