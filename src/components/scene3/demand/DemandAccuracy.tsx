@@ -7,7 +7,13 @@ const data = loadKpiDemand()
 export function DemandAccuracy() {
   const option = {
     tooltip: { trigger: 'axis' },
-    grid: { top: 20, right: 16, bottom: 20, left: 40 },
+    legend: {
+      top: 0,
+      right: 0,
+      textStyle: { fontSize: 11 },
+      data: ['准发量率', '预测准确率'],
+    },
+    grid: { top: 28, right: 16, bottom: 20, left: 40 },
     xAxis: {
       type: 'category',
       data: data.map((d) => d.month),
@@ -21,14 +27,16 @@ export function DemandAccuracy() {
     },
     series: [
       {
+        name: '准发量率',
         type: 'bar',
         data: data.map((d) => d.demandAccuracy),
         itemStyle: { color: '#4a7cdc', borderRadius: [4, 4, 0, 0] },
         barWidth: '50%',
       },
       {
+        name: '预测准确率',
         type: 'line',
-        data: data.map((d) => d.demandAccuracy),
+        data: data.map((d) => d.forecastAcc),
         smooth: true,
         lineStyle: { color: '#10b981', width: 2 },
         symbol: 'circle',

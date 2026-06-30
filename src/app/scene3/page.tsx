@@ -44,13 +44,13 @@ export default function Scene3Page() {
           label="本月合同件数"
           value={latest?.contractCount.toLocaleString() ?? '—'}
           unit="件"
-          trend={`件数完成率 ${latest?.countRate.toFixed(1)}%`}
+          trend={`件数完成率 ${(latest?.countRate ?? 0).toFixed(1)}%`}
         />
         <KpiCard
           label="本月合同吨数"
           value={((latest?.contractTons ?? 0) / 10000).toFixed(1)}
           unit="万吨"
-          trend={`吨数完成率 ${latest?.tonsRate.toFixed(1)}%`}
+          trend={`吨数完成率 ${(latest?.tonsRate ?? 0).toFixed(1)}%`}
         />
         <KpiCard
           label="全线合同总件数"
