@@ -1,0 +1,22 @@
+[
+  {
+    "month": "1月",
+    "demandAccuracy": 91.96
+  },
+  {
+    "month": "2月",
+    "demandAccuracy": 90.22
+  },
+  {
+    "month": "3月",
+    "demandAccuracy": 92.95
+  },
+  {
+    "month": "4月",
+    "demandAccuracy": 86.89
+  },
+  {
+    "month": "5月",
+    "demandAccuracy": 90.28
+  }
+]

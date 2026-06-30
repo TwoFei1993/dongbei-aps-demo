@@ -1,0 +1,302 @@
+[
+  {
+    "groupId": "GRP001",
+    "steelGrade": "45",
+    "orderCount": 91,
+    "totalTons": 12205.2,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 619.7,
+    "capacityUsage": "61%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP002",
+    "steelGrade": "42CrMoA",
+    "orderCount": 109,
+    "totalTons": 11785.044,
+    "earliestDelivery": "2026-05-25",
+    "grossProfitPerTon": 670.8,
+    "capacityUsage": "75%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP003",
+    "steelGrade": "GCr15",
+    "orderCount": 210,
+    "totalTons": 8364.6,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 411.6,
+    "capacityUsage": "66%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP004",
+    "steelGrade": "Q355NE(S355NL)+Z35(Z25)",
+    "orderCount": 5,
+    "totalTons": 7700.0,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 638.3,
+    "capacityUsage": "94%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP005",
+    "steelGrade": "GCr15SiMn",
+    "orderCount": 63,
+    "totalTons": 5947.0,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 343.5,
+    "capacityUsage": "87%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP006",
+    "steelGrade": "25MnB-1",
+    "orderCount": 2,
+    "totalTons": 4000.0,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 315.9,
+    "capacityUsage": "65%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP007",
+    "steelGrade": "25MnB",
+    "orderCount": 2,
+    "totalTons": 3200.0,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 409.3,
+    "capacityUsage": "92%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP008",
+    "steelGrade": "X12Cr13",
+    "orderCount": 25,
+    "totalTons": 2542.0,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 601.0,
+    "capacityUsage": "95%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP009",
+    "steelGrade": "40Cr",
+    "orderCount": 36,
+    "totalTons": 2340.581,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 399.4,
+    "capacityUsage": "94%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP010",
+    "steelGrade": "SAE8620H",
+    "orderCount": 56,
+    "totalTons": 2312.0,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 509.8,
+    "capacityUsage": "88%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP011",
+    "steelGrade": "42CrMo",
+    "orderCount": 65,
+    "totalTons": 2004.0,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 594.6,
+    "capacityUsage": "60%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP012",
+    "steelGrade": "20Cr13",
+    "orderCount": 36,
+    "totalTons": 1671.0,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 679.4,
+    "capacityUsage": "70%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP013",
+    "steelGrade": "B150A",
+    "orderCount": 1,
+    "totalTons": 1500.0,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 649.1,
+    "capacityUsage": "81%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP014",
+    "steelGrade": "B400A",
+    "orderCount": 1,
+    "totalTons": 1500.0,
+    "earliestDelivery": "2026-05-10",
+    "grossProfitPerTon": 438.9,
+    "capacityUsage": "73%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP015",
+    "steelGrade": "3Cr13",
+    "orderCount": 49,
+    "totalTons": 1439.1,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 778.6,
+    "capacityUsage": "81%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP016",
+    "steelGrade": "H13",
+    "orderCount": 197,
+    "totalTons": 1417.0,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 351.1,
+    "capacityUsage": "84%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP017",
+    "steelGrade": "303CuL",
+    "orderCount": 88,
+    "totalTons": 1372.0,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 348.4,
+    "capacityUsage": "82%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP018",
+    "steelGrade": "60Si2Mn",
+    "orderCount": 136,
+    "totalTons": 1337.0,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 601.9,
+    "capacityUsage": "62%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP019",
+    "steelGrade": "X17CrNi16-2",
+    "orderCount": 7,
+    "totalTons": 1183.0,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 664.9,
+    "capacityUsage": "94%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP020",
+    "steelGrade": "4Cr13",
+    "orderCount": 74,
+    "totalTons": 1129.0,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 362.4,
+    "capacityUsage": "84%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP021",
+    "steelGrade": "G20CrNi2MoA",
+    "orderCount": 5,
+    "totalTons": 1120.0,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 339.4,
+    "capacityUsage": "78%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP022",
+    "steelGrade": "410",
+    "orderCount": 33,
+    "totalTons": 1086.0,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 714.7,
+    "capacityUsage": "83%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP023",
+    "steelGrade": "G20Cr2Ni4",
+    "orderCount": 22,
+    "totalTons": 1080.0,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 588.7,
+    "capacityUsage": "64%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP024",
+    "steelGrade": "A105(LF2)-1",
+    "orderCount": 1,
+    "totalTons": 1000.0,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 322.9,
+    "capacityUsage": "74%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP025",
+    "steelGrade": "B300A",
+    "orderCount": 1,
+    "totalTons": 1000.0,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 686.5,
+    "capacityUsage": "65%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP026",
+    "steelGrade": "S275J0",
+    "orderCount": 1,
+    "totalTons": 1000.0,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 727.7,
+    "capacityUsage": "66%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP027",
+    "steelGrade": "S45C",
+    "orderCount": 19,
+    "totalTons": 1000.0,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 490.1,
+    "capacityUsage": "89%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP028",
+    "steelGrade": "55SiCr",
+    "orderCount": 18,
+    "totalTons": 974.0,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 617.8,
+    "capacityUsage": "83%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP029",
+    "steelGrade": "2Cr13",
+    "orderCount": 27,
+    "totalTons": 924.2,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 381.3,
+    "capacityUsage": "82%",
+    "status": "optimal"
+  },
+  {
+    "groupId": "GRP030",
+    "steelGrade": "P20（3Cr2Mo）",
+    "orderCount": 44,
+    "totalTons": 901.0,
+    "earliestDelivery": "2026-05-31",
+    "grossProfitPerTon": 404.8,
+    "capacityUsage": "77%",
+    "status": "optimal"
+  }
+]
