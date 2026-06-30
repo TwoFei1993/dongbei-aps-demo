@@ -11,7 +11,7 @@ interface PyramidLayer {
 const LAYERS: PyramidLayer[] = [
   {
     label: '业务目标层',
-    color: '#253348',
+    color: 'var(--color-pyramid-apex)',
     textColor: '#ffffff',
     widthClass: 'w-[55%]',
     items: [
@@ -23,7 +23,7 @@ const LAYERS: PyramidLayer[] = [
   },
   {
     label: '业务流程层',
-    color: '#4a7cdc',
+    color: 'var(--color-pyramid-process)',
     textColor: '#ffffff',
     widthClass: 'w-[70%]',
     items: [
@@ -33,7 +33,7 @@ const LAYERS: PyramidLayer[] = [
   },
   {
     label: '体系支撑层',
-    color: '#7ba7e8',
+    color: 'var(--color-pyramid-support)',
     textColor: '#ffffff',
     widthClass: 'w-[85%]',
     items: [
@@ -44,7 +44,7 @@ const LAYERS: PyramidLayer[] = [
   },
   {
     label: '数据基础层',
-    color: '#dde3ee',
+    color: 'var(--color-pyramid-base)',
     textColor: '#253348',
     widthClass: 'w-full',
     items: [

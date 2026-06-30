@@ -65,6 +65,10 @@
   --color-text-title: #253348;
   --color-text-body: #4b5a78;
   --color-text-muted: #8896aa;
+  --color-pyramid-apex: #253348;
+  --color-pyramid-process: #4a7cdc;
+  --color-pyramid-support: #7ba7e8;
+  --color-pyramid-base: #dde3ee;
 }
 
 :root {
