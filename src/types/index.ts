@@ -6,6 +6,7 @@ export interface Order {
   productLine: string; equipment: string; plannedTons: number; shape: string
   thickness: number; width: number; length: number
   deliveryState: string; plannedMonth: string; isOverdue: boolean
+  priority: 'high' | 'medium' | 'low'
 }
 export interface OrderGroup {
   groupId: string; steelGrade: string; orderCount: number; totalTons: number
