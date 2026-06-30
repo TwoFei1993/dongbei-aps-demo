@@ -49,7 +49,7 @@ export function FilterBar() {
                   backgroundColor: active
                     ? 'var(--color-primary)'
                     : 'var(--color-primary-light)',
-                  color: active ? '#fff' : 'var(--color-primary)',
+                  color: active ? 'var(--color-card-bg)' : 'var(--color-primary)',
                 }}
               >
                 {t}
@@ -67,13 +67,15 @@ export function FilterBar() {
 
       {/* Product line select */}
       <div className="flex items-center gap-2">
-        <span
+        <label
+          htmlFor="product-line-select"
           className="text-xs"
           style={{ color: 'var(--color-text-muted)' }}
         >
           产品线
-        </span>
+        </label>
         <select
+          id="product-line-select"
           value={productLine}
           onChange={(e) => setProductLine(e.target.value)}
           className="rounded-lg px-3 py-1 text-xs font-medium outline-none"
