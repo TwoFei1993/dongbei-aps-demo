@@ -1,7 +1,7 @@
 [
-  { "dimension": "交期遵守率", "capacity": 82, "profit": 78, "strategic": 85 },
-  { "dimension": "产能利用率", "capacity": 91, "profit": 75, "strategic": 80 },
-  { "dimension": "吨钢毛利",   "capacity": 70, "profit": 95, "strategic": 82 },
-  { "dimension": "库存周转",   "capacity": 75, "profit": 80, "strategic": 88 },
-  { "dimension": "战略客户占比","capacity": 68, "profit": 72, "strategic": 94 }
+  { "dimension": "吨钢毛利",     "capacity": 70, "profit": 95, "strategic": 82 },
+  { "dimension": "产能利用率",   "capacity": 91, "profit": 75, "strategic": 80 },
+  { "dimension": "战略客户交期", "capacity": 68, "profit": 72, "strategic": 94 },
+  { "dimension": "整体交付率",   "capacity": 82, "profit": 78, "strategic": 85 },
+  { "dimension": "库存水平",     "capacity": 75, "profit": 80, "strategic": 88 }
 ]
