@@ -153,3 +153,21 @@
     @apply font-sans;
   }
 }
+
+/* 页面切换淡入 */
+main > div {
+  animation: fadeIn 0.2s ease-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* 卡片悬浮效果 */
+.card-hover {
+  transition: box-shadow 0.15s, transform 0.15s;
+}
+.card-hover:hover {
+  box-shadow: 0 6px 20px rgba(37, 51, 72, 0.10);
+  transform: translateY(-1px);
+}
