@@ -1,0 +1,326 @@
+{
+  "heatPrediction": [
+    {
+      "time": "00:00",
+      "predicted": 1181.5,
+      "actual": 1178.0
+    },
+    {
+      "time": "01:00",
+      "predicted": 1183.1,
+      "actual": 1190.4
+    },
+    {
+      "time": "02:00",
+      "predicted": 1181.4,
+      "actual": 1189.1
+    },
+    {
+      "time": "03:00",
+      "predicted": 1176.0,
+      "actual": 1172.8
+    },
+    {
+      "time": "04:00",
+      "predicted": 1174.0,
+      "actual": 1158.1
+    },
+    {
+      "time": "05:00",
+      "predicted": 1171.8,
+      "actual": 1169.6
+    },
+    {
+      "time": "06:00",
+      "predicted": 1170.8,
+      "actual": 1165.0
+    },
+    {
+      "time": "07:00",
+      "predicted": 1178.6,
+      "actual": 1192.1
+    },
+    {
+      "time": "08:00",
+      "predicted": 1176.0,
+      "actual": 1177.3
+    },
+    {
+      "time": "09:00",
+      "predicted": 1171.2,
+      "actual": 1174.9
+    },
+    {
+      "time": "10:00",
+      "predicted": 1171.5,
+      "actual": 1168.8
+    },
+    {
+      "time": "11:00",
+      "predicted": 1174.6,
+      "actual": 1176.8
+    },
+    {
+      "time": "12:00",
+      "predicted": 1168.4,
+      "actual": 1167.7
+    },
+    {
+      "time": "13:00",
+      "predicted": 1167.7,
+      "actual": 1161.9
+    },
+    {
+      "time": "14:00",
+      "predicted": 1162.9,
+      "actual": 1170.8
+    },
+    {
+      "time": "15:00",
+      "predicted": 1163.2,
+      "actual": 1156.1
+    },
+    {
+      "time": "16:00",
+      "predicted": 1166.1,
+      "actual": 1167.7
+    },
+    {
+      "time": "17:00",
+      "predicted": 1175.5,
+      "actual": 1179.5
+    },
+    {
+      "time": "18:00",
+      "predicted": 1178.8,
+      "actual": 1181.3
+    },
+    {
+      "time": "19:00",
+      "predicted": 1166.9,
+      "actual": 1164.7
+    },
+    {
+      "time": "20:00",
+      "predicted": 1170.3,
+      "actual": 1177.0
+    },
+    {
+      "time": "21:00",
+      "predicted": 1171.8,
+      "actual": 1165.3
+    },
+    {
+      "time": "22:00",
+      "predicted": 1167.5,
+      "actual": 1183.9
+    },
+    {
+      "time": "23:00",
+      "predicted": 1172.4,
+      "actual": 1171.9
+    }
+  ],
+  "loadingGroups": [
+    {
+      "groupId": "LG01",
+      "steelGrade": "GCr15A",
+      "deltaT": 8.8,
+      "color": "#e74c3c"
+    },
+    {
+      "groupId": "LG02",
+      "steelGrade": "42CrMo",
+      "deltaT": 29.6,
+      "color": "#3498db"
+    },
+    {
+      "groupId": "LG03",
+      "steelGrade": "H13",
+      "deltaT": 19.3,
+      "color": "#2ecc71"
+    },
+    {
+      "groupId": "LG04",
+      "steelGrade": "30CrMoA",
+      "deltaT": -12.9,
+      "color": "#f39c12"
+    },
+    {
+      "groupId": "LG05",
+      "steelGrade": "40Cr",
+      "deltaT": -6.9,
+      "color": "#9b59b6"
+    },
+    {
+      "groupId": "LG06",
+      "steelGrade": "Cr12MoV",
+      "deltaT": 10.1,
+      "color": "#1abc9c"
+    },
+    {
+      "groupId": "LG07",
+      "steelGrade": "GCr15SiMn",
+      "deltaT": -28.6,
+      "color": "#e67e22"
+    },
+    {
+      "groupId": "LG08",
+      "steelGrade": "4Cr13",
+      "deltaT": -2.3,
+      "color": "#34495e"
+    }
+  ],
+  "rhythmMatch": [
+    {
+      "time": "00:00",
+      "furnaceOutput": 44.2,
+      "millDemand": 40.8
+    },
+    {
+      "time": "01:00",
+      "furnaceOutput": 41.5,
+      "millDemand": 56.4
+    },
+    {
+      "time": "02:00",
+      "furnaceOutput": 43.2,
+      "millDemand": 43.9
+    },
+    {
+      "time": "03:00",
+      "furnaceOutput": 49.8,
+      "millDemand": 58.9
+    },
+    {
+      "time": "04:00",
+      "furnaceOutput": 42.0,
+      "millDemand": 48.8
+    },
+    {
+      "time": "05:00",
+      "furnaceOutput": 53.7,
+      "millDemand": 59.2
+    },
+    {
+      "time": "06:00",
+      "furnaceOutput": 60.5,
+      "millDemand": 58.7
+    },
+    {
+      "time": "07:00",
+      "furnaceOutput": 47.0,
+      "millDemand": 48.0
+    },
+    {
+      "time": "08:00",
+      "furnaceOutput": 49.0,
+      "millDemand": 59.2
+    },
+    {
+      "time": "09:00",
+      "furnaceOutput": 63.9,
+      "millDemand": 41.6
+    },
+    {
+      "time": "10:00",
+      "furnaceOutput": 44.4,
+      "millDemand": 43.6
+    },
+    {
+      "time": "11:00",
+      "furnaceOutput": 45.8,
+      "millDemand": 49.6
+    },
+    {
+      "time": "12:00",
+      "furnaceOutput": 54.7,
+      "millDemand": 44.3
+    },
+    {
+      "time": "13:00",
+      "furnaceOutput": 40.1,
+      "millDemand": 48.1
+    },
+    {
+      "time": "14:00",
+      "furnaceOutput": 49.2,
+      "millDemand": 51.6
+    },
+    {
+      "time": "15:00",
+      "furnaceOutput": 63.8,
+      "millDemand": 54.6
+    },
+    {
+      "time": "16:00",
+      "furnaceOutput": 52.9,
+      "millDemand": 52.8
+    },
+    {
+      "time": "17:00",
+      "furnaceOutput": 56.9,
+      "millDemand": 39.3
+    },
+    {
+      "time": "18:00",
+      "furnaceOutput": 62.5,
+      "millDemand": 56.7
+    },
+    {
+      "time": "19:00",
+      "furnaceOutput": 61.9,
+      "millDemand": 57.1
+    },
+    {
+      "time": "20:00",
+      "furnaceOutput": 49.8,
+      "millDemand": 47.6
+    },
+    {
+      "time": "21:00",
+      "furnaceOutput": 42.6,
+      "millDemand": 53.2
+    },
+    {
+      "time": "22:00",
+      "furnaceOutput": 41.6,
+      "millDemand": 39.6
+    },
+    {
+      "time": "23:00",
+      "furnaceOutput": 45.2,
+      "millDemand": 41.9
+    }
+  ],
+  "improvements": [
+    {
+      "label": "轧线等炉时间",
+      "before": 45,
+      "after": 22,
+      "unit": "min",
+      "improvement": "-51%"
+    },
+    {
+      "label": "OEE",
+      "before": 72,
+      "after": 78,
+      "unit": "%",
+      "improvement": "+8.3%"
+    },
+    {
+      "label": "能耗",
+      "before": 3.2,
+      "after": 2.95,
+      "unit": "GJ/t",
+      "improvement": "-7.8%"
+    },
+    {
+      "label": "热装热送率",
+      "before": 52,
+      "after": 67,
+      "unit": "%",
+      "improvement": "+28.8%"
+    }
+  ]
+}

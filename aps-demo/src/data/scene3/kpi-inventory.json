@@ -1,0 +1,277 @@
+[
+  {
+    "steelCategory": "不锈钢",
+    "stockCycle": "1--3",
+    "weight": 5.5
+  },
+  {
+    "steelCategory": "合金工具钢",
+    "stockCycle": "1--3",
+    "weight": 1196.755
+  },
+  {
+    "steelCategory": "合金工具钢",
+    "stockCycle": "3--6",
+    "weight": 1325.889
+  },
+  {
+    "steelCategory": "合金工具钢",
+    "stockCycle": "＜1",
+    "weight": 2459.534
+  },
+  {
+    "steelCategory": "合金工具钢",
+    "stockCycle": "＞6",
+    "weight": 855.294
+  },
+  {
+    "steelCategory": "合金弹簧钢",
+    "stockCycle": "1--3",
+    "weight": 76.617
+  },
+  {
+    "steelCategory": "合金弹簧钢",
+    "stockCycle": "3--6",
+    "weight": 140.821
+  },
+  {
+    "steelCategory": "合金弹簧钢",
+    "stockCycle": "＜1",
+    "weight": 1058.694
+  },
+  {
+    "steelCategory": "合金弹簧钢",
+    "stockCycle": "＞6",
+    "weight": 3.4826
+  },
+  {
+    "steelCategory": "合金结构钢",
+    "stockCycle": "1--3",
+    "weight": 5758.615
+  },
+  {
+    "steelCategory": "合金结构钢",
+    "stockCycle": "3--6",
+    "weight": 1544.561
+  },
+  {
+    "steelCategory": "合金结构钢",
+    "stockCycle": "＜1",
+    "weight": 17254.8755
+  },
+  {
+    "steelCategory": "合金结构钢",
+    "stockCycle": "＞6",
+    "weight": 1881.728
+  },
+  {
+    "steelCategory": "弹性合金",
+    "stockCycle": "1--3",
+    "weight": 0.2129
+  },
+  {
+    "steelCategory": "弹性合金",
+    "stockCycle": "3--6",
+    "weight": 0.1082
+  },
+  {
+    "steelCategory": "弹性合金",
+    "stockCycle": "＜1",
+    "weight": 1.8491
+  },
+  {
+    "steelCategory": "碳素工具钢",
+    "stockCycle": "1--3",
+    "weight": 10.614
+  },
+  {
+    "steelCategory": "碳素工具钢",
+    "stockCycle": "＜1",
+    "weight": 87.15
+  },
+  {
+    "steelCategory": "碳素工具钢",
+    "stockCycle": "＞6",
+    "weight": 38.556
+  },
+  {
+    "steelCategory": "碳素弹簧钢",
+    "stockCycle": "1--3",
+    "weight": 1.256
+  },
+  {
+    "steelCategory": "碳素弹簧钢",
+    "stockCycle": "3--6",
+    "weight": 0.102
+  },
+  {
+    "steelCategory": "碳素弹簧钢",
+    "stockCycle": "＜1",
+    "weight": 0.5595
+  },
+  {
+    "steelCategory": "碳素弹簧钢",
+    "stockCycle": "＞6",
+    "weight": 0.05
+  },
+  {
+    "steelCategory": "碳素结构钢",
+    "stockCycle": "1--3",
+    "weight": 519.482
+  },
+  {
+    "steelCategory": "碳素结构钢",
+    "stockCycle": "3--6",
+    "weight": 47.227
+  },
+  {
+    "steelCategory": "碳素结构钢",
+    "stockCycle": "＜1",
+    "weight": 5140.0877
+  },
+  {
+    "steelCategory": "碳素结构钢",
+    "stockCycle": "＞6",
+    "weight": 173.5248
+  },
+  {
+    "steelCategory": "磁性合金",
+    "stockCycle": "1--3",
+    "weight": 20.6956
+  },
+  {
+    "steelCategory": "磁性合金",
+    "stockCycle": "3--6",
+    "weight": 1.591
+  },
+  {
+    "steelCategory": "磁性合金",
+    "stockCycle": "＜1",
+    "weight": 8.173
+  },
+  {
+    "steelCategory": "磁性合金",
+    "stockCycle": "＞6",
+    "weight": 0.583
+  },
+  {
+    "steelCategory": "精密合金",
+    "stockCycle": "＜1",
+    "weight": 1.0106
+  },
+  {
+    "steelCategory": "膨胀合金",
+    "stockCycle": "1--3",
+    "weight": 0.1638
+  },
+  {
+    "steelCategory": "膨胀合金",
+    "stockCycle": "＜1",
+    "weight": 3.407
+  },
+  {
+    "steelCategory": "膨胀合金",
+    "stockCycle": "＞6",
+    "weight": 0.05
+  },
+  {
+    "steelCategory": "轴承钢",
+    "stockCycle": "1--3",
+    "weight": 2794.092
+  },
+  {
+    "steelCategory": "轴承钢",
+    "stockCycle": "3--6",
+    "weight": 1290.481
+  },
+  {
+    "steelCategory": "轴承钢",
+    "stockCycle": "＜1",
+    "weight": 8821.534
+  },
+  {
+    "steelCategory": "轴承钢",
+    "stockCycle": "＞6",
+    "weight": 1051.359
+  },
+  {
+    "steelCategory": "铬不锈",
+    "stockCycle": "1--3",
+    "weight": 3990.5585
+  },
+  {
+    "steelCategory": "铬不锈",
+    "stockCycle": "3--6",
+    "weight": 1030.268
+  },
+  {
+    "steelCategory": "铬不锈",
+    "stockCycle": "＜1",
+    "weight": 8428.5348
+  },
+  {
+    "steelCategory": "铬不锈",
+    "stockCycle": "＞6",
+    "weight": 597.045
+  },
+  {
+    "steelCategory": "铬镍不锈钢",
+    "stockCycle": "1--3",
+    "weight": 14.4994
+  },
+  {
+    "steelCategory": "铬镍不锈钢",
+    "stockCycle": "3--6",
+    "weight": 13.5434
+  },
+  {
+    "steelCategory": "铬镍不锈钢",
+    "stockCycle": "＜1",
+    "weight": 174.1418
+  },
+  {
+    "steelCategory": "铬镍不锈钢",
+    "stockCycle": "＞6",
+    "weight": 8.0258
+  },
+  {
+    "steelCategory": "高合金工具钢",
+    "stockCycle": "1--3",
+    "weight": 411.527
+  },
+  {
+    "steelCategory": "高合金工具钢",
+    "stockCycle": "3--6",
+    "weight": 57.397
+  },
+  {
+    "steelCategory": "高合金工具钢",
+    "stockCycle": "＜1",
+    "weight": 1138.458
+  },
+  {
+    "steelCategory": "高合金工具钢",
+    "stockCycle": "＞6",
+    "weight": 11.016
+  },
+  {
+    "steelCategory": "高温合金",
+    "stockCycle": "1--3",
+    "weight": 0.1328
+  },
+  {
+    "steelCategory": "高温合金",
+    "stockCycle": "3--6",
+    "weight": 0.027
+  },
+  {
+    "steelCategory": "高温合金",
+    "stockCycle": "＜1",
+    "weight": 0.3004
+  },
+  {
+    "steelCategory": "高温合金",
+    "stockCycle": "＞6",
+    "weight": 16.2982
+  }
+]

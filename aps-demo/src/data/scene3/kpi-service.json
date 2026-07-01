@@ -1,0 +1,47 @@
+[
+  {
+    "month": "1月",
+    "contractCount": 4641,
+    "contractTons": 102307.67,
+    "settledCount": 3751,
+    "settledTons": 94085.0,
+    "countRate": 80.82,
+    "tonsRate": 91.96
+  },
+  {
+    "month": "2月",
+    "contractCount": 3529,
+    "contractTons": 95628.08,
+    "settledCount": 2801,
+    "settledTons": 86277.0,
+    "countRate": 79.37,
+    "tonsRate": 90.22
+  },
+  {
+    "month": "3月",
+    "contractCount": 3963,
+    "contractTons": 92256.85,
+    "settledCount": 3435,
+    "settledTons": 85753.0,
+    "countRate": 86.68,
+    "tonsRate": 92.95
+  },
+  {
+    "month": "4月",
+    "contractCount": 3554,
+    "contractTons": 76475.24,
+    "settledCount": 2949,
+    "settledTons": 66448.0,
+    "countRate": 82.98,
+    "tonsRate": 86.89
+  },
+  {
+    "month": "5月",
+    "contractCount": 3417,
+    "contractTons": 76193.52,
+    "settledCount": 2852,
+    "settledTons": 68784.0,
+    "countRate": 83.47,
+    "tonsRate": 90.28
+  }
+]

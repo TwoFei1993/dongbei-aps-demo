@@ -1,0 +1,72 @@
+[
+  {
+    "productLine": "炼钢",
+    "contractCount": 17,
+    "contractTons": 33880.0,
+    "backlogTons": 979.86,
+    "completionRate": 86.2
+  },
+  {
+    "productLine": "线材",
+    "contractCount": 704,
+    "contractTons": 16000.0,
+    "backlogTons": 2417.81,
+    "completionRate": 104.71
+  },
+  {
+    "productLine": "小棒",
+    "contractCount": 1090,
+    "contractTons": 26000.0,
+    "backlogTons": 2220.66,
+    "completionRate": 96.25
+  },
+  {
+    "productLine": "银亮材",
+    "contractCount": 212,
+    "contractTons": 4005.0,
+    "backlogTons": 238.47,
+    "completionRate": 104.39
+  },
+  {
+    "productLine": "钢丝",
+    "contractCount": 287,
+    "contractTons": 204.0,
+    "backlogTons": 16.97,
+    "completionRate": 100.98
+  },
+  {
+    "productLine": "大型材",
+    "contractCount": 911,
+    "contractTons": 42000.0,
+    "backlogTons": 3065.03,
+    "completionRate": 97.9
+  },
+  {
+    "productLine": "模具",
+    "contractCount": 1376,
+    "contractTons": 7500.0,
+    "backlogTons": 248.46,
+    "completionRate": 100.21
+  },
+  {
+    "productLine": "锻钢",
+    "contractCount": 307,
+    "contractTons": 7000.0,
+    "backlogTons": 19.33,
+    "completionRate": 100.26
+  },
+  {
+    "productLine": "精密",
+    "contractCount": 84,
+    "contractTons": 111.0,
+    "backlogTons": 0.0,
+    "completionRate": 103.6
+  },
+  {
+    "productLine": "特冶",
+    "contractCount": 2,
+    "contractTons": 300.0,
+    "backlogTons": 0.0,
+    "completionRate": 92.67
+  }
+]

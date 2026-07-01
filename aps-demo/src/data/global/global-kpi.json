@@ -1,0 +1,26 @@
+[
+  {
+    "label": "5月钢产量",
+    "value": "145571",
+    "direction": "up",
+    "unit": "吨"
+  },
+  {
+    "label": "大型材月产量",
+    "value": "54085",
+    "direction": "up",
+    "unit": "吨"
+  },
+  {
+    "label": "商品入库量",
+    "value": "132183",
+    "direction": "up",
+    "unit": "吨"
+  },
+  {
+    "label": "连铸比",
+    "value": "88.9",
+    "direction": "up",
+    "unit": "%"
+  }
+]
