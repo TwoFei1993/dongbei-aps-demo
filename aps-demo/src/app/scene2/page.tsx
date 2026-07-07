@@ -37,7 +37,7 @@ export default function Scene2Page() {
 
       <ScheduleParamsModal open={modalOpen} onClose={() => setModalOpen(false)} onApply={handleApply} />
 
-      <div className="grid gap-4 items-stretch" style={{ gridTemplateColumns: '380px 1fr' }}>
+      <div className="grid gap-4 items-stretch" style={{ gridTemplateColumns: 'minmax(300px, 380px) minmax(0, 1fr)' }}>
         <div className="relative rounded-xl p-4" style={{ backgroundColor: 'var(--color-card-bg)', border: '1px solid var(--color-card-border)' }}>
           <h3 className="mb-3 text-sm font-semibold" style={{ color: 'var(--color-text-title)' }}>
             排程输入参数

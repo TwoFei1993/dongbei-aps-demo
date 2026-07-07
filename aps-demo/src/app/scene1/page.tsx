@@ -50,7 +50,7 @@ export default function Scene1Page() {
         ))}
       </div>
 
-      <div className="grid gap-4 items-stretch" style={{ gridTemplateColumns: '300px 1fr 360px' }}>
+      <div className="grid gap-4 items-stretch" style={{ gridTemplateColumns: 'minmax(240px, 300px) minmax(0, 1fr) minmax(280px, 360px)' }}>
         <div
           className="rounded-xl p-4 flex flex-col"
           style={{ backgroundColor: 'var(--color-card-bg)', border: '1px solid var(--color-card-border)' }}

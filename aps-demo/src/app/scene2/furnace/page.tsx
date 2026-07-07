@@ -6,6 +6,7 @@ import { FurnaceInputs } from '@/components/scene2/FurnaceInputs'
 import { FurnaceParamsModal } from '@/components/scene2/FurnaceParamsModal'
 import { OptimizingOverlay } from '@/components/shared/OptimizingOverlay'
 
+// 历史统计基准值（典型改善区间），非实时数据，不随下方三模型步进器参数变化
 const IMPROVEMENTS = [
   { value: '-50%', label: '轧线等炉停机', sub: '14% → 8% 损失',  color: '#10b981' },
   { value: '+6%',  label: 'OEE 提升',     sub: '大棒线整线',     color: '#4a7cdc' },
@@ -43,17 +44,23 @@ export default function FurnacePage() {
         </button>
       </div>
 
-      {/* 改善效果卡片 */}
+      {/* 改善效果卡片（历史统计典型值，非实时） */}
       <div className="grid grid-cols-4 gap-3">
         {IMPROVEMENTS.map((imp) => (
           <div
             key={imp.value}
-            className="rounded-xl px-4 py-3 text-center"
+            className="relative rounded-xl px-4 py-3 text-center"
             style={{
               backgroundColor: 'var(--color-card-bg)',
               border: '1px solid var(--color-card-border)',
             }}
           >
+            <span
+              className="absolute top-1.5 right-1.5 rounded px-1 text-[9px] font-medium"
+              style={{ backgroundColor: 'var(--color-primary-light)', color: 'var(--color-text-muted)' }}
+            >
+              典型值
+            </span>
             <p className="text-xl font-bold" style={{ color: imp.color }}>{imp.value}</p>
             <p className="text-[11px] font-semibold mt-0.5" style={{ color: 'var(--color-text-title)' }}>
               {imp.label}
@@ -64,7 +71,7 @@ export default function FurnacePage() {
       </div>
 
       {/* 主体内容 */}
-      <div className="grid gap-6 items-start" style={{ gridTemplateColumns: '320px 1fr' }}>
+      <div className="grid gap-6 items-start" style={{ gridTemplateColumns: 'minmax(260px, 320px) minmax(0, 1fr)' }}>
         {/* 左栏：输入数据面板 */}
         <div
           className="rounded-xl p-4 space-y-3"

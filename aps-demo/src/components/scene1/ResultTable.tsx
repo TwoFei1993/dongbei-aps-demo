@@ -10,9 +10,13 @@ const STATUS_COLORS = {
   feasible: { bg: '#eff4ff', text: '#4a7cdc', label: '有效解' },
 }
 
-// ATP 超期基准：今天 + atpWindowDays*2
-function atpDeadline(atpWindowDays: number): string {
-  const d = new Date('2026-06-30')
+// ATP 超期基准：数据集最早交期 + atpWindowDays*2（锚定数据而非系统时钟，保证演示结果稳定可复现）
+function atpDeadline(atpWindowDays: number, allGroups: OrderGroup[]): string {
+  const earliest = allGroups.reduce(
+    (min, g) => (g.earliestDelivery < min ? g.earliestDelivery : min),
+    allGroups[0].earliestDelivery,
+  )
+  const d = new Date(earliest)
   d.setDate(d.getDate() + atpWindowDays * 2)
   return d.toISOString().slice(0, 10)
 }
@@ -40,7 +44,7 @@ function resolveStatus(
 export function ResultTable() {
   const { scenario, scene1Params: p } = useAppStore()
 
-  const deadline = atpDeadline(p.atpWindowDays)
+  const deadline = atpDeadline(p.atpWindowDays, groups)
 
   const sorted = [...groups].sort((a, b) =>
     scenario === 'profit'   ? b.grossProfitPerTon - a.grossProfitPerTon :
