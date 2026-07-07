@@ -1,5 +1,6 @@
 import { FilterBar } from '@/components/shared/FilterBar'
-import { KpiSummary } from '@/components/scene3/KpiSummary'
+import { ModuleKpiCard } from '@/components/scene3/ModuleKpiCard'
+import { getModuleKpiGroups } from '@/components/scene3/data/moduleKpis'
 import { DemandAccuracy } from '@/components/scene3/demand/DemandAccuracy'
 import { OrderPaceChart } from '@/components/scene3/demand/OrderPaceChart'
 import { OtifChart } from '@/components/scene3/service/OtifChart'
@@ -11,6 +12,8 @@ import { ScheduleLoss } from '@/components/scene3/production/ScheduleLoss'
 import { DeviationAlert } from '@/components/scene3/production/DeviationAlert'
 
 export default function Scene3Page() {
+  const moduleGroups = getModuleKpiGroups()
+
   return (
     <div className="space-y-6">
       <div>
@@ -24,13 +27,24 @@ export default function Scene3Page() {
           className="mt-1 text-sm"
           style={{ color: 'var(--color-text-muted)' }}
         >
-          需求 · 客户服务 · 库存与供应 · 生产执行 四域全景监控
+          需求预测 · 资源计划 · 订单接收 · 计划协同 · 生产调度 · 执行优化 六模块全景监控
         </p>
       </div>
 
       <FilterBar />
 
-      <KpiSummary />
+      <div className="grid grid-cols-3 gap-4">
+        {moduleGroups.map((group) => (
+          <ModuleKpiCard
+            key={group.id}
+            title={group.title}
+            subtitle={group.subtitle}
+            color={group.color}
+            href={group.href}
+            kpis={group.kpis}
+          />
+        ))}
+      </div>
 
       <div className="grid grid-cols-2 gap-4" style={{ alignItems: 'stretch' }}>
         {/* 需求域 */}

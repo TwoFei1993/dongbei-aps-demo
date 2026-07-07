@@ -44,6 +44,7 @@ export interface ProductLineContract {
   backlogTons: number; completionRate: number
 }
 export interface InventoryBucket { steelCategory: string; stockCycle: string; weight: number }
+export interface ModuleKpiItem { label: string; value: string; unit?: string; trend?: string }
 export interface MonthlyDemandAccuracy { month: string; demandAccuracy: number; forecastAcc: number }
 export interface FilterState {
   timeRange: string; productLine: string; steelCategory: string; scenario: ScenarioKey

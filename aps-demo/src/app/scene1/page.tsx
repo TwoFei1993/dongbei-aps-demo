@@ -6,6 +6,7 @@ import { ResultTable } from '@/components/scene1/ResultTable'
 import { InputPanel } from '@/components/scene1/InputPanel'
 import { CostModel } from '@/components/scene1/CostModel'
 import { OptimizationModal } from '@/components/scene1/OptimizationModal'
+import { ScenarioChat } from '@/components/scene1/ScenarioChat'
 import { OptimizingOverlay } from '@/components/shared/OptimizingOverlay'
 
 export default function Scene1Page() {
@@ -84,17 +85,20 @@ export default function Scene1Page() {
           </div>
         </div>
 
-        <div
-          className="relative rounded-xl p-4 flex flex-col"
-          style={{ backgroundColor: 'var(--color-card-bg)', border: '1px solid var(--color-card-border)' }}
-        >
-          <h3 className="text-sm font-semibold mb-3" style={{ color: 'var(--color-text-title)' }}>
-            输出 · 三情景方案对比
-          </h3>
-          <div className="flex-1">
-            <ScenarioRadar />
+        <div className="flex flex-col gap-4">
+          <div
+            className="relative rounded-xl p-4 flex flex-col flex-1"
+            style={{ backgroundColor: 'var(--color-card-bg)', border: '1px solid var(--color-card-border)' }}
+          >
+            <h3 className="text-sm font-semibold mb-3" style={{ color: 'var(--color-text-title)' }}>
+              输出 · 三情景方案对比
+            </h3>
+            <div className="flex-1">
+              <ScenarioRadar />
+            </div>
+            {isOptimizing && <OptimizingOverlay />}
           </div>
-          {isOptimizing && <OptimizingOverlay />}
+          <ScenarioChat />
         </div>
       </div>
 

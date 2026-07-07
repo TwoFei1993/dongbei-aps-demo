@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 set -e
 cd "$(dirname "$0")/../aps-demo"
-pnpm dev
+rm -rf .next
+pnpm dev --port 4002
