@@ -4,11 +4,11 @@ import { usePathname } from 'next/navigation'
 import { LayoutDashboard, ClipboardList, GitBranch, Thermometer, BarChart3 } from 'lucide-react'
 
 const NAV_ITEMS = [
-  { href: '/',               label: 'APS 架构总览', num: '总览',     icon: LayoutDashboard },
-  { href: '/scene1',         label: '智能订单评审', num: '场景 01',  icon: ClipboardList },
-  { href: '/scene2',         label: '四工序协同',   num: '场景 02A', icon: GitBranch },
-  { href: '/scene2/furnace', label: '加热炉协同',   num: '场景 02B', icon: Thermometer },
-  { href: '/scene3',         label: '多维驾驶舱',   num: '场景 03',  icon: BarChart3 },
+  { href: '/',               label: 'APS 架构总览', num: '总览',     icon: LayoutDashboard, key: 'overview' },
+  { href: '/scene1',         label: '智能订单评审', num: '场景 01',  icon: ClipboardList,   key: 'scene1' },
+  { href: '/scene2',         label: '四工序协同',   num: '场景 02A', icon: GitBranch,       key: 'scene2' },
+  { href: '/scene2/furnace', label: '加热炉协同',   num: '场景 02B', icon: Thermometer,     key: 'scene2-furnace' },
+  { href: '/scene3',         label: '多维驾驶舱',   num: '场景 03',  icon: BarChart3,       key: 'scene3' },
 ]
 
 export function SideNav() {
@@ -37,6 +37,7 @@ export function SideNav() {
             )}
             <Link
               href={item.href}
+              data-testid={`nav-${item.key}`}
               className="flex items-center gap-3 px-4 py-2.5 text-sm transition-colors"
               style={{
                 color: active ? 'var(--color-text-title)' : 'var(--color-text-muted)',

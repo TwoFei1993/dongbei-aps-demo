@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test:e2e": "node scripts/e2e.js",
+    "test:e2e:ui": "node scripts/e2e.js --ui"
   },
   "dependencies": {
     "@base-ui/react": "^1.6.0",

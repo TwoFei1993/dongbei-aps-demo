@@ -32,7 +32,7 @@ export function ResultTable() {
           {sorted.map((g, i) => {
             const s = STATUS_COLORS[g.status]
             return (
-              <tr key={g.groupId} style={{ backgroundColor: i % 2 === 0 ? '#fff' : '#fafbfd' }}>
+              <tr key={g.groupId} data-testid="result-row" style={{ backgroundColor: i % 2 === 0 ? '#fff' : '#fafbfd' }}>
                 <td className="px-2 py-1.5 font-bold" style={{ color: 'var(--color-primary)' }}>{g.groupId}</td>
                 <td className="px-2 py-1.5 font-semibold" style={{ color: 'var(--color-text-title)' }}>{g.steelGrade}</td>
                 <td className="px-2 py-1.5 text-center">{g.orderCount}</td>

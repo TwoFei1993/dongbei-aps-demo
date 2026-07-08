@@ -159,6 +159,7 @@ export function FurnaceModel() {
         {MODELS.map((m) => (
           <button
             key={m.id}
+            data-testid={`furnace-model-${m.id}`}
             onClick={() => setActiveId(m.id)}
             className="px-4 py-2 rounded-lg text-sm font-medium transition-colors"
             style={{

@@ -46,7 +46,7 @@ export function ScenarioRadar() {
     <div className="flex flex-col gap-3">
       <div className="flex gap-2">
         {(Object.keys(SCENARIO_LABELS) as ScenarioKey[]).map((key) => (
-          <button key={key} onClick={() => setScenario(key)}
+          <button key={key} data-testid={`scenario-${key}`} onClick={() => setScenario(key)}
             className="flex-1 rounded-lg px-2 py-1.5 text-[10px] font-semibold transition-all"
             style={{
               backgroundColor: scenario === key ? COLORS[key] : 'var(--color-primary-light)',

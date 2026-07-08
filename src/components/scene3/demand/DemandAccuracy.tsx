@@ -45,5 +45,9 @@ export function DemandAccuracy() {
       },
     ],
   }
-  return <ChartWrapper option={option} height={200} />
+  return (
+    <div data-testid="demand-accuracy-chart">
+      <ChartWrapper option={option} height={200} />
+    </div>
+  )
 }

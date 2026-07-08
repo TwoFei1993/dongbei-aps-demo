@@ -43,6 +43,7 @@ export function FilterBar() {
             return (
               <button
                 key={t}
+                data-testid={`filter-time-${t}`}
                 onClick={() => setTimeRange(t)}
                 className="rounded-lg px-3 py-1 text-xs font-medium transition-colors"
                 style={{
@@ -76,6 +77,7 @@ export function FilterBar() {
         </label>
         <select
           id="product-line-select"
+          data-testid="filter-product-line"
           value={productLine}
           onChange={(e) => setProductLine(e.target.value)}
           className="rounded-lg px-3 py-1 text-xs font-medium outline-none"

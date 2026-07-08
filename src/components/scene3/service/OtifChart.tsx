@@ -60,5 +60,9 @@ export function OtifChart() {
       },
     ],
   }
-  return <ChartWrapper option={option} height={200} />
+  return (
+    <div data-testid="otif-chart">
+      <ChartWrapper option={option} height={200} />
+    </div>
+  )
 }

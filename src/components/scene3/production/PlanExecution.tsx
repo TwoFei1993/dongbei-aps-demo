@@ -58,5 +58,9 @@ export function PlanExecution() {
       },
     ],
   }
-  return <ChartWrapper option={option} height={220} />
+  return (
+    <div data-testid="plan-execution-chart">
+      <ChartWrapper option={option} height={220} />
+    </div>
+  )
 }

@@ -15,7 +15,7 @@ export function OrderTable() {
     <div className="flex flex-col gap-3">
       <div className="flex flex-wrap gap-1">
         {GRADES.map((g) => (
-          <button key={g} onClick={() => setCategory(g)}
+          <button key={g} data-testid={`order-category-${g}`} onClick={() => setCategory(g)}
             className="rounded px-2 py-0.5 text-[10px] transition-colors"
             style={{
               backgroundColor: category === g ? 'var(--color-primary)' : 'var(--color-primary-light)',

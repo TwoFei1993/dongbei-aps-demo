@@ -52,5 +52,9 @@ export function InventoryHeatmap() {
       },
     ],
   }
-  return <ChartWrapper option={option} height={260} />
+  return (
+    <div data-testid="inventory-heatmap-chart">
+      <ChartWrapper option={option} height={260} />
+    </div>
+  )
 }

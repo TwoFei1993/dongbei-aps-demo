@@ -129,5 +129,9 @@ export function CrossGantt() {
     }
   }, [tasks, equipments, highlightBatch])
 
-  return <ChartWrapper option={option} height={420} onEvents={events} />
+  return (
+    <div data-testid="cross-gantt-chart">
+      <ChartWrapper option={option} height={420} onEvents={events} />
+    </div>
+  )
 }

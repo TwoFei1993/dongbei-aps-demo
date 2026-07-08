@@ -21,6 +21,7 @@ export function AlgoFlow() {
       {STEPS.map((step, i) => (
         <div key={step.id}>
           <button
+            data-testid={`algo-step-${step.id}`}
             onClick={() => setActive(active === step.id ? null : step.id)}
             className="w-full rounded-lg px-3 py-2 text-left text-[12px] font-semibold transition-all"
             style={{
@@ -33,7 +34,7 @@ export function AlgoFlow() {
             <span className="mr-2 opacity-60">0{step.id}</span>{step.label}
           </button>
           {active === step.id && (
-            <div className="ml-4 mt-1 rounded-lg p-3 text-[11px]"
+            <div data-testid={`algo-step-detail-${step.id}`} className="ml-4 mt-1 rounded-lg p-3 text-[11px]"
                  style={{ backgroundColor: '#f0f4ff', color: 'var(--color-text-body)', borderLeft: '3px solid var(--color-primary)' }}>
               {step.desc}
             </div>
